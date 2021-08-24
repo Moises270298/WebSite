@@ -1,0 +1,72 @@
+/* fonte */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+/* variaveis */
+
+:root {
+    --cor-principal: rgb(20, 93, 160);
+    --cor-secundaria: rgb(217, 217, 217);
+
+    --cor-titulo: rgb(177, 212, 224);
+    --cor-botao: rgb(63, 164, 197);
+
+    --cor-bgInput: rgb(235, 232, 232);
+
+    --cor-icons: rgb(75, 75, 75);
+
+    --cor-whats: rgb(58, 194, 83);
+    --cor-face: rgb(16, 133, 218);
+    --cor-wts: rgb(58, 194, 83);
+}
+
+/* Configs */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.2px;
+}
+
+fieldset {
+    border: none;
+}
+
+.titulo-section {
+    text-align: center;
+    margin: 1.5em 0;
+    font-size: 46px;
+    color: var(--cor-titulo);
+    text-transform: uppercase;
+    text-shadow: var(--cor-principal) 2px 2px 1px;
+}
+
+.subtext {
+    text-align: center;
+    margin: 2em 0;
+    font-size: 23px;
+    font-weight: bold;
+    color: black;
+}
+
+/* anchor thing */
+
+.anchor {
+    border: red 1px solid;
+    position: relative;
+    top: -86px;
+    visibility: hidden;
+}
+
